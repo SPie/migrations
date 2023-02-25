@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 namespace LaravelDoctrine\Migrations\Console;
 
-use LaravelDoctrine\ORM\Console\Command;
-
-class RollbackCommand extends Command
+class RollbackCommand extends BaseCommand
 {
     /**
      * The name and signature of the console command.

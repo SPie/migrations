@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 namespace LaravelDoctrine\Migrations\Console;
 
-use Illuminate\Console\Command;
-
-class RefreshCommand extends Command
+class RefreshCommand extends BaseCommand
 {
     /**
      * The name and signature of the console command.
